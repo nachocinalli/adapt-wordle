@@ -1,0 +1,40 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "wordle",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Wordle",
+  "displayTitle": "Wordle",
+  "body": " ",
+  "instruction": "Guess the word",
+  "_guessesAllowed": 6,
+  "guessLabel": "Enter guess:",
+  "guessTitle": "{{wordlength}} letter word",
+  "_pattern": "[a-zA-Z]{{wordlength}}",
+  "_promptTextContinue": "Continue",
+  "_promptTextComplete": "Close",
+  "_items": [
+    {
+      "word": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream."
+    },
+    {
+      "word": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill."
+    },
+    {
+      "word": "Forest",
+      "definition": "A large area covered chiefly with trees and undergrowth."
+    },
+    {
+      "word": "Desert",
+      "definition": "A dry, barren area of land, especially one covered with sand, that is characteristically desolate, waterless, and without vegetation."
+    }
+  ],
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": false
+  }
+}
